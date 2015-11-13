@@ -1,0 +1,30 @@
+{
+  "name": "hubot-sshell",
+  "version": "1.0.0",
+  "description": "[TRIAL] Externalize hubot shell",
+  "main": "./src/sshell.coffee",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "cline": "^0.8.2",
+    "hubot": "github:github/hubot",
+    "parent-require": "^1.0.0",
+    "ws": "~0.7.2"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasduteil/hubot-sshell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasduteil/hubot-sshell/issues"
+  },
+  "homepage": "https://github.com/douglasduteil/hubot-sshell#readme"
+}
